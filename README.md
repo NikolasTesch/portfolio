@@ -1,111 +1,104 @@
+# 💻 Nikolas Tesch · Portfolio
+
 <div align="center">
   <br />
-  <h1>Nikolas Tesch · Portfolio</h1>
   <p>
-    <strong>Fullstack Developer — React & Next.js</strong>
+    <strong>Fullstack Developer — React, Next.js & TypeScript</strong>
   </p>
-
+  <p>
+    <a href="https://nikolastesch.vercel.app" target="_blank"><strong>✨ Live Demo · nikolastesch.vercel.app</strong></a>
+  </p>
   <br />
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js%2016-000000?logo=next.js&logoColor=white" alt="Next.js 16" />
-  <img src="https://img.shields.io/badge/TypeScript%20strict-3178C6?logo=typescript&logoColor=white" alt="TypeScript strict" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" alt="Vercel" />
-  <br />
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
+  <img src="https://img.shields.io/badge/Next.js%2016-000000?logo=next.js&logoColor=white&style=for-the-badge" alt="Next.js 16" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?logo=framer&logoColor=white&style=for-the-badge" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" alt="Vercel" />
 </p>
 
 ---
 
-Personal portfolio built with Next.js 16, TypeScript, Tailwind CSS and Framer Motion. Bilingual (PT/EN), dark/light theme, fully responsive, and a11y-tested.
+Welcome to the repository of my personal portfolio. Here, I showcase my skills, professional experience, and the real-world products I've built. 
 
-### Features
+> *"I turn ideas into real web products — from design to deploy."*
 
-- **Hero section** — HTML5 video background (dark mode) / gradient (light mode), animated entrance, experience and code badges
-- **About** — bio, info cards (name, email, location, availability), CV download
-- **Skills** — marquee rows of technology cards with brand icons and categories
-- **Projects** — 3 featured projects (DataBolsa, NKS Art, Fase Sport) with screenshots, tech tags, demo and repo links
-- **Contact** — form → mailto integration, social links (GitHub, LinkedIn, Email, WhatsApp)
-- **i18n** — Portuguese / English toggle persisted to localStorage
-- **Dark/Light theme** — CSS custom properties, smooth transitions, persisted preference
-- **Animations** — scroll-reveal sections, hover states, reduced-motion support
-- **SEO** — metadata, Open Graph, sitemap.xml, robots.txt
-- **Accessibility** — semantic HTML, focus management, `vitest-axe` coverage
+---
 
-### Stack
+## 🚀 Key Projects
 
-| Layer     | Technology                            |
-| --------- | ------------------------------------- |
-| Framework | Next.js 16 (App Router)               |
-| Language  | TypeScript (strict)                   |
-| Styling   | Tailwind CSS v3                       |
-| Animation | Framer Motion                         |
-| i18n      | Custom React Context                  |
-| Icons     | lucide-react                          |
-| Testing   | Vitest + Testing Library + vitest-axe |
-| Lint      | ESLint + Prettier                     |
-| Deploy    | Vercel                                |
+Here are some of the main applications I have developed:
 
-### Projects
+### 📈 [DataBolsa](https://databolsa.vercel.app/)
+* **Description:** An investment analysis and portfolio-tracking platform for the Brazilian and US markets, featuring real-time index tracking (IBOV, IFIX), currency/crypto converters, and educational content.
+* **Stack:** Next.js, Flutter, NestJS, Prisma, PostgreSQL.
+* **Code:** [GitHub Repo](https://github.com/NikolasTesch/databolsa)
 
-| Project        | Description                                                                  | Stack                  |
-| -------------- | ---------------------------------------------------------------------------- | ---------------------- |
-| **DataBolsa**  | Investment-analysis and portfolio-tracking platform for the Brazilian market | React, Finnhub API     |
-| **NKS Art**    | Digital-library SaaS of artwork for the textile industry (Cloudflare R2)     | Next.js, Cloudflare R2 |
-| **Fase Sport** | E-commerce for custom sports uniforms with multi-step quoting                | Next.js, WhatsApp API  |
+### 💈 [BarberAG](https://github.com/NikolasTesch/barberag)
+* **Description:** A complete management and scheduling system for barbershops, equipped with online booking, customer dashboards, and administrative reports.
+* **Stack:** Next.js, TypeScript, Playwright (end-to-end testing).
+* **Code:** [GitHub Repo](https://github.com/NikolasTesch/barberag)
 
-### Getting started
+### 🍔 [CatchOrder](https://github.com/NikolasTesch/CatchOrder)
+* **Description:** A robust order-management system for restaurants, featuring secure user authentication, order workflows, and extensive automated test coverage.
+* **Stack:** Node.js, TypeScript, SQLite, Jest.
+* **Code:** [GitHub Repo](https://github.com/NikolasTesch/CatchOrder)
 
-```bash
-git clone https://github.com/NikolasTesch/portfolio
-cd portfolio
-npm install
-```
+---
 
-```bash
-# Development
-npm run dev
+## 🛠️ Tech Stack & Skills
 
-# Production build
-npm run build
+* **Languages:** JavaScript (ES6+), TypeScript, Python, HTML5, CSS3.
+* **Front-End:** React, Next.js (App Router), Tailwind CSS, Framer Motion, Responsive Design.
+* **Back-End & Databases:** Node.js, NestJS, RESTful APIs, PostgreSQL, SQLite, Prisma ORM.
+* **Mobile:** Flutter.
+* **Cloud & Tools:** Vercel, Cloudflare R2, Git, GitHub Actions, Jest, Playwright.
 
-# Tests
-npm run test
+---
 
-# Lint
-npm run lint
-```
+## 🎨 Portfolio Features
 
-### Project structure
+* **Bilingual Support (PT/EN):** Built-in lightweight localization system via React Context, with automatic language persistence (`localStorage`).
+* **Dark/Light Theme:** Curated color palettes with custom CSS properties for smooth, premium transitions.
+* **Polished Animations:** Fluid entrance effects, hover micro-interactions, and scroll reveals implemented using Framer Motion (complying with `prefers-reduced-motion`).
+* **Performance & SEO:** Pre-rendered pages, fully optimized assets (`next/image`), structural schemas, and high accessibility standards (`vitest-axe` tested).
 
-```
-src/
-├── app/               # App Router — layout, pages, metadata, sitemap
-├── components/
-│   ├── layout/        # Navbar, Footer
-│   ├── providers/     # ThemeProvider (dark/light)
-│   ├── sections/      # Hero, About, Skills, Projects, Contact
-│   └── ui/            # Reusable UI widgets
-├── content/           # Data layer — projects, skills, site config
-├── i18n/              # I18nProvider + messages (pt/en)
-├── lib/               # Framer Motion helpers
-└── test/              # Test utilities
-```
+---
 
-### Scripts
+## 📬 Contact & Socials
 
-| Command         | Description             |
-| --------------- | ----------------------- |
-| `npm run dev`   | Start dev server        |
-| `npm run build` | Production build        |
-| `npm run start` | Start production server |
-| `npm run lint`  | Run ESLint              |
-| `npm run test`  | Run Vitest              |
+Let's connect! I am always open to discussing new opportunities, projects, or just chatting about technology.
 
-### License
+* **Email:** [nikolasditesch@gmail.com](mailto:nikolasditesch@gmail.com)
+* **LinkedIn:** [linkedin.com/in/nikolastesch](https://www.linkedin.com/in/nikolastesch/)
+* **GitHub:** [github.com/NikolasTesch](https://github.com/NikolasTesch)
+* **WhatsApp:** [+55 73 99976-0129](https://wa.me/5573999760129)
 
-MIT &mdash; see [LICENSE](LICENSE) (or just steal anything you like).
+---
+
+## ⚙️ Running Locally
+
+If you want to clone this portfolio and run it on your machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NikolasTesch/portfolio.git
+   cd portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
