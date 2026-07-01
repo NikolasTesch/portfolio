@@ -21,7 +21,7 @@ export function Hero() {
             <video
               key="hero-video"
               aria-hidden="true"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover opacity-25"
               autoPlay
               loop
               muted
@@ -127,15 +127,6 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Badge de experiência */}
-          <div className="absolute -bottom-4 -left-4 flex items-center gap-3 rounded-2xl border border-border bg-surface/90 px-4 py-3 shadow-glow backdrop-blur">
-            <span className="font-serif text-3xl text-primary">
-              {site.yearsExperience}
-            </span>
-            <span className="max-w-[7rem] font-inter text-xs text-muted">
-              {t.hero.experience}
-            </span>
-          </div>
 
           {/* Badge de código */}
           <div className="absolute -right-3 top-6 grid h-12 w-12 animate-float place-items-center rounded-xl border border-border bg-surface/90 text-primary shadow-glow backdrop-blur">
