@@ -1,0 +1,26 @@
+{
+  "id": "T-003",
+  "titulo": "Design system: tokens, tipografia e tema dark/light",
+  "descricao": "Definir design tokens (cores, espacamento, gradiente de acento) como CSS variables + Tailwind theme, fontes via next/font, e tema claro/escuro com dark como padrao. Padronizar durations/easings de motion.",
+  "status": "finalizada",
+  "prioridade": "alta",
+  "epico": "design-system",
+  "dependencias": [
+    "T-001"
+  ],
+  "arquivos": [
+    "src/styles/globals.css",
+    "tailwind.config.ts",
+    "src/lib/motion.ts",
+    "src/components/layout/ThemeToggle.tsx"
+  ],
+  "criterios_aceitacao": [
+    "Tokens definidos como CSS vars e mapeados no Tailwind",
+    "Tema dark/light funcional e persistente",
+    "Nenhuma cor hex hardcoded fora dos tokens",
+    "Gradiente de acento reutilizavel"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

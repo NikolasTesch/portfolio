@@ -1,0 +1,24 @@
+{
+  "id": "T-007",
+  "titulo": "Secao Skills / Stack",
+  "descricao": "Grid de habilidades com icones: React, TypeScript, JavaScript, Python, Flutter, Node, Express, PostgreSQL. Dados em src/content/skills.ts. Micro-interacoes no hover.",
+  "status": "finalizada",
+  "prioridade": "media",
+  "epico": "secoes",
+  "dependencias": [
+    "T-004"
+  ],
+  "arquivos": [
+    "src/components/sections/Skills.tsx",
+    "src/content/skills.ts"
+  ],
+  "criterios_aceitacao": [
+    "Skills vindas de src/content/skills.ts (nao hardcoded no componente)",
+    "Icones acessiveis (com label)",
+    "Hover/micro-interacao respeitando prefers-reduced-motion",
+    "Responsivo"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

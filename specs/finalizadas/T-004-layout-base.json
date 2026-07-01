@@ -1,0 +1,27 @@
+{
+  "id": "T-004",
+  "titulo": "Layout base: Header, Footer, LocaleSwitcher, ThemeToggle",
+  "descricao": "Construir o shell do site: header com navegacao ancorada nas secoes, switcher de idioma e toggle de tema; footer com links sociais. Header responsivo com menu mobile.",
+  "status": "finalizada",
+  "prioridade": "alta",
+  "epico": "secoes",
+  "dependencias": [
+    "T-002",
+    "T-003"
+  ],
+  "arquivos": [
+    "src/components/layout/Header.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/layout/LocaleSwitcher.tsx",
+    "src/app/[locale]/layout.tsx"
+  ],
+  "criterios_aceitacao": [
+    "Header fixo com navegacao funcional (scroll suave ate secoes)",
+    "Menu mobile acessivel por teclado",
+    "Switcher de idioma e toggle de tema funcionando",
+    "Footer com GitHub/LinkedIn/email"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

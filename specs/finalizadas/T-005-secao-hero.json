@@ -1,0 +1,25 @@
+{
+  "id": "T-005",
+  "titulo": "Secao Hero com animacao de entrada",
+  "descricao": "Hero com nome, cargo desejado, tagline e CTAs (ver projetos / contato). Animacao de entrada criativa respeitando prefers-reduced-motion.",
+  "status": "finalizada",
+  "prioridade": "alta",
+  "epico": "secoes",
+  "dependencias": [
+    "T-004"
+  ],
+  "arquivos": [
+    "src/components/sections/Hero.tsx",
+    "src/i18n/messages/pt.json",
+    "src/i18n/messages/en.json"
+  ],
+  "criterios_aceitacao": [
+    "Conteudo em PT e EN",
+    "Animacao fluida que respeita prefers-reduced-motion",
+    "CTAs funcionais (scroll para projetos/contato)",
+    "Responsivo de 320px a desktop"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

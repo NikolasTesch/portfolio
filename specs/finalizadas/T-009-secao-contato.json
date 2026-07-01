@@ -1,0 +1,25 @@
+{
+  "id": "T-009",
+  "titulo": "Secao Contato",
+  "descricao": "Bloco de contato com email, LinkedIn, GitHub e formulario simples (ou mailto). Validacao basica e feedback de envio.",
+  "status": "finalizada",
+  "prioridade": "media",
+  "epico": "secoes",
+  "dependencias": [
+    "T-004"
+  ],
+  "arquivos": [
+    "src/components/sections/Contact.tsx",
+    "src/i18n/messages/pt.json",
+    "src/i18n/messages/en.json"
+  ],
+  "criterios_aceitacao": [
+    "Links de contato corretos e acessiveis",
+    "Formulario com validacao e estados (loading/sucesso/erro) OU mailto funcional",
+    "Conteudo em PT e EN",
+    "Acessivel por teclado com foco visivel"
+  ],
+  "notas": "Definir se usa servico de form (ex.: Formspree/Resend) ou mailto. Sem backend proprio.",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

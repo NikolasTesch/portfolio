@@ -1,0 +1,19 @@
+{
+  "id": "T-012",
+  "titulo": "Auditoria de acessibilidade e performance",
+  "descricao": "Rodar Lighthouse e auditoria de acessibilidade, corrigir contraste, foco, semantica e otimizar imagens/bundle. Configurar suite de testes (Vitest + Testing Library + axe).",
+  "status": "pendente",
+  "prioridade": "alta",
+  "epico": "qualidade",
+  "dependencias": ["T-010"],
+  "arquivos": ["vitest.config.ts", "src/components/**/*.test.tsx"],
+  "criterios_aceitacao": [
+    "Lighthouse >= 90 em Performance, A11y, Best Practices e SEO",
+    "Navegacao completa por teclado com foco visivel",
+    "Sem violacoes axe nas secoes principais",
+    "Suite de testes passando"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "T-002",
+  "titulo": "Internacionalização PT/EN com rotas localizadas",
+  "descricao": "Configurar i18n (next-intl) com rotas [locale], mensagens em pt.json e en.json, locale padrao pt e persistencia da preferencia.",
+  "status": "pendente",
+  "prioridade": "alta",
+  "epico": "infra",
+  "dependencias": [
+    "T-001"
+  ],
+  "arquivos": [
+    "src/app/[locale]/layout.tsx",
+    "src/i18n/config.ts",
+    "src/i18n/messages/pt.json",
+    "src/i18n/messages/en.json",
+    "middleware.ts"
+  ],
+  "criterios_aceitacao": [
+    "Rotas /pt e /en funcionam",
+    "Troca de idioma mantem a pagina atual",
+    "Sem chaves de traducao faltando em nenhum idioma",
+    "Preferencia persistida via cookie"
+  ],
+  "notas": "i18n feito de forma leve (contexto client + toggle PT/EN). Falta formalizar rotas localizadas [locale] com next-intl.",
+  "criada_em": "2026-06-18",
+  "concluida_em": null
+}

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light mode (visão mobile da referência) */
+  --bg: #f3f1f9;
+  --surface: #ffffff;
+  --fg: #181425;
+  --muted: #514c66;
+  --border: #ddd7ec;
+}
+
+.dark {
+  /* Dark mode (visão desktop da referência) */
+  --bg: #0d0a17;
+  --surface: #161122;
+  --fg: #f6f7f9;
+  --muted: #a99fc4;
+  --border: #2b2344;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Grão/ruído sutil para dar textura e profundidade ao fundo */
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Destaque do headline ("produtos web") — sólido + glow, legível sobre o vídeo */
+.headline-accent {
+  color: #7b39fc; /* light mode: roxo sólido sobre fundo claro */
+}
+.dark .headline-accent {
+  color: #c9bcff; /* dark: lilás claro sobre o vídeo */
+  filter: drop-shadow(0 2px 16px rgba(123, 57, 252, 0.55));
+}
+
+/* Texto com gradiente de acento (assinatura visual) */
+.text-gradient {
+  background: linear-gradient(90deg, #7b39fc 0%, #a484d7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

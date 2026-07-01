@@ -1,0 +1,26 @@
+{
+  "id": "T-006",
+  "titulo": "Secao Sobre",
+  "descricao": "Bio curta, foto de perfil e botao para download do CV em PDF. Animacao de entrada por scroll.",
+  "status": "finalizada",
+  "prioridade": "media",
+  "epico": "secoes",
+  "dependencias": [
+    "T-004"
+  ],
+  "arquivos": [
+    "src/components/sections/About.tsx",
+    "src/i18n/messages/pt.json",
+    "src/i18n/messages/en.json",
+    "public/cv"
+  ],
+  "criterios_aceitacao": [
+    "Bio em PT e EN",
+    "Foto otimizada via next/image com alt",
+    "Botao de download do CV (PT e EN)",
+    "Animacao por scroll respeitando prefers-reduced-motion"
+  ],
+  "notas": "Depende do conteudo a coletar no PRD (bio, foto, CV).",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

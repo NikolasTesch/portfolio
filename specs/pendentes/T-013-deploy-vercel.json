@@ -1,0 +1,19 @@
+{
+  "id": "T-013",
+  "titulo": "Deploy na Vercel",
+  "descricao": "Conectar o repositorio Git a Vercel, configurar build, variaveis de ambiente (se houver), dominio e previews por PR. Validar deploy de producao.",
+  "status": "pendente",
+  "prioridade": "alta",
+  "epico": "deploy",
+  "dependencias": ["T-011", "T-012"],
+  "arquivos": ["vercel.json", ".env.example"],
+  "criterios_aceitacao": [
+    "Deploy de producao acessivel publicamente",
+    "Previews automaticos em PRs",
+    "Variaveis de ambiente configuradas (se aplicavel)",
+    "Sem erros de build no painel da Vercel"
+  ],
+  "notas": "Requer repositorio Git (ainda nao inicializado) e conta na Vercel.",
+  "criada_em": "2026-06-18",
+  "concluida_em": null
+}

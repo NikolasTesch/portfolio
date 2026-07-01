@@ -1,0 +1,26 @@
+{
+  "id": "T-001",
+  "titulo": "Setup do projeto Next.js + TS + Tailwind",
+  "descricao": "Inicializar o projeto Next.js 15 (App Router) com TypeScript strict, Tailwind CSS, ESLint e Prettier. Definir a estrutura de pastas da SPEC.",
+  "status": "finalizada",
+  "prioridade": "alta",
+  "epico": "infra",
+  "dependencias": [],
+  "arquivos": [
+    "package.json",
+    "next.config.ts",
+    "tailwind.config.ts",
+    "tsconfig.json",
+    "src/app",
+    "src/styles/globals.css"
+  ],
+  "criterios_aceitacao": [
+    "npm run dev sobe sem erros",
+    "npm run build passa",
+    "Tailwind aplicado e funcionando",
+    "Estrutura de pastas conforme docs/SPEC.md secao 2"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}

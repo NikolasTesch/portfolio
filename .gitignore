@@ -1,0 +1,35 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# Build
+/dist/
+/build
+
+# Environment
+.env
+.env.local
+.env.production
+.env*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Certificates
+*.pem

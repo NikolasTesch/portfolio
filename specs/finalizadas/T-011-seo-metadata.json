@@ -1,0 +1,28 @@
+{
+  "id": "T-011",
+  "titulo": "SEO, metadata e Open Graph",
+  "descricao": "Configurar metadata por locale, Open Graph/Twitter cards, og-image, favicons, sitemap e robots. Titulo e descricao em PT e EN.",
+  "status": "finalizada",
+  "prioridade": "media",
+  "epico": "qualidade",
+  "dependencias": [
+    "T-004"
+  ],
+  "arquivos": [
+    "src/app/layout.tsx",
+    "src/app/opengraph-image.tsx",
+    "src/app/sitemap.ts",
+    "src/app/robots.ts",
+    "src/app/icon.svg",
+    "src/content/site.ts"
+  ],
+  "criterios_aceitacao": [
+    "Metadata correta por idioma",
+    "OG image renderiza em previews de link",
+    "Sitemap e robots gerados",
+    "Lighthouse SEO >= 90"
+  ],
+  "notas": "",
+  "criada_em": "2026-06-18",
+  "concluida_em": "2026-06-18"
+}
