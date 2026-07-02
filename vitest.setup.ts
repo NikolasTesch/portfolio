@@ -48,16 +48,18 @@ window.HTMLMediaElement.prototype.pause = vi.fn();
 // next/image -> <img> simples para o ambiente de teste
 vi.mock("next/image", () => ({
   default: (props: Record<string, unknown>) => {
-    const { src, alt, fill, sizes, priority, ...rest } = props as {
+    const { src, alt, fill, sizes, priority, unoptimized, ...rest } = props as {
       src: string;
       alt: string;
       fill?: unknown;
       sizes?: unknown;
       priority?: unknown;
+      unoptimized?: unknown;
     };
     void fill;
     void sizes;
     void priority;
+    void unoptimized;
     return createElement("img", { src, alt, ...rest });
   },
 }));

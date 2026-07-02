@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight, ChevronDown, Code2, Download } from "lucide-react";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -114,16 +115,23 @@ export function Hero() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
           className="relative w-full max-w-sm shrink-0"
         >
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-primary/20 via-surface to-primary-dark/30 shadow-glow">
-            {/* brilho de fundo */}
-            <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_40%,rgba(123,57,252,0.35),transparent)]" />
-            {/* Avatar placeholder (Nikolas vai enviar a foto) */}
-            <div className="absolute inset-0 grid place-items-center">
-              <div className="relative grid h-44 w-44 place-items-center rounded-full">
-                <div className="absolute inset-0 animate-[spin_7s_linear_infinite] rounded-full bg-[conic-gradient(from_0deg,#7b39fc,#a484d7,#2b2344,#7b39fc)]" />
-                <div className="absolute inset-[3px] rounded-full bg-surface/90 backdrop-blur" />
-                <span className="relative font-serif text-6xl text-gradient">NT</span>
-              </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-border/50 bg-gradient-to-br from-primary/10 via-surface to-primary-dark/20 shadow-glow">
+            {/* Efeito de iluminação circulando (Border Beam) */}
+            <div className="absolute inset-[-50%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_0deg,transparent_240deg,#7b39fc_300deg,#a484d7_360deg)]" />
+            
+            {/* Container interno da foto de perfil */}
+            <div className="absolute inset-[2px] overflow-hidden rounded-[22px] bg-surface">
+              {/* Foto de perfil preenchendo o retângulo */}
+              <Image
+                src="/profile.jpg"
+                alt={site.name}
+                fill
+                priority
+                unoptimized
+                className="object-cover -scale-x-100"
+              />
+              {/* Efeito de brilho sutil por cima da imagem */}
+              <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(80%_60%_at_50%_30%,rgba(123,57,252,0.15),transparent)]" />
             </div>
           </div>
 

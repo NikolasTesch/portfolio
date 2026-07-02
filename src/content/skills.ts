@@ -6,6 +6,7 @@ export type Skill = {
 export const skills: Skill[] = [
   { name: "React", category: { pt: "Frontend", en: "Frontend" } },
   { name: "Next.js", category: { pt: "Framework", en: "Framework" } },
+  { name: "Svelte", category: { pt: "Framework", en: "Framework" } },
   { name: "TypeScript", category: { pt: "Linguagem", en: "Language" } },
   { name: "JavaScript", category: { pt: "Linguagem", en: "Language" } },
   { name: "Node.js", category: { pt: "Backend", en: "Backend" } },
