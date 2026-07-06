@@ -26,7 +26,7 @@ export const messages = {
     about: {
       tag: "Sobre mim",
       title: "Quem é o Nikolas",
-      body: "Sou desenvolvedor fullstack focado em criar produtos web modernos, rápidos e bem-acabados. Trabalho principalmente com React e Next.js e já coloquei no ar aplicações reais — de uma plataforma de análise de investimentos a um SaaS de biblioteca digital e um e-commerce. Levo a ideia da interface até o deploy, cuidando da experiência do usuário e da lógica por trás dela. Em busca da primeira oportunidade para crescer ao lado de um time e entregar produtos que as pessoas realmente usam.",
+      body: "Sou desenvolvedor Full-Stack em formação intensiva na Alpha EdTech e cursando Análise e Desenvolvimento de Sistemas. Especializado em construir aplicações web e mobile robustas com React, Next.js, Node.js e TypeScript, uno lógica estruturada a uma visão apurada de UX/UI. Crio projetos completos de ponta a ponta — do design ao deploy —, implementando fluxos de autenticação, testes automatizados (Jest/Playwright) e integração de armazenamento em nuvem. Busco contribuir com meu perfil autodidata e focado em boas práticas de engenharia para entregar soluções de alto impacto que resolvam problemas reais.",
       labelName: "Nome",
       labelEmail: "E-mail",
       labelLocation: "Localização",
@@ -87,7 +87,7 @@ export const messages = {
     about: {
       tag: "About me",
       title: "Who is Nikolas",
-      body: "I'm a fullstack developer focused on building modern, fast and polished web products. I work mainly with React and Next.js and have already shipped real applications — from an investment-analysis platform to a digital-library SaaS and an e-commerce. I take ideas from the interface all the way to deploy, caring about both the user experience and the logic behind it. Looking for my first opportunity to grow alongside a team and deliver products people actually use.",
+      body: "I am a Full-Stack Developer undergoing full-time intensive training at Alpha EdTech and pursuing an Associate Degree in Systems Analysis and Development. Specialized in building robust web and mobile applications with React, Next.js, Node.js, and TypeScript, I combine strong backend logic with a polished vision of UI/UX. I build complete end-to-end projects — from design to deployment —, implementing authentication flows, automated testing (Jest/Playwright), and cloud storage integration. I am looking to leverage my self-taught mindset and focus on software engineering best practices to deliver high-impact solutions that solve real-world problems.",
       labelName: "Name",
       labelEmail: "Email",
       labelLocation: "Location",
